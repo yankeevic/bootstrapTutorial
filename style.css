@@ -1,10 +1,13 @@
 .container {
-		background-color:aqua;
+		background-color:green;
 }
 .container-fluid {
 		background-color:aqua;
 }
-.col-md-4 {
+.col-md-4, 
+.col-lg-4, 
+.col-sm-4,
+.col-xs-4 {
 		border:1px solid black;
-		height:200px;
+		height:100px;
 }
