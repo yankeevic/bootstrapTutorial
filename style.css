@@ -1,3 +1,9 @@
+
+body {
+	padding-top:55px;
+	padding-bottom:60px;
+}
+
 .container {
 		background-color:green;
 }
@@ -29,6 +35,9 @@ Media queries look at the capability of the device, and can be used to check man
 	and much more
 */
 @media(max-width:34em) {
+	body {
+		padding-top:25px;
+	}
 	.navbar .navbar-nav>.nav-item {
 		float:none;
 		margin-left: .1rem;
@@ -40,4 +49,11 @@ Media queries look at the capability of the device, and can be used to check man
 	.navbar .collapsing {
 		clear: both;
 	}
+}
+
+.carousel-indicators li{
+	background-color:black;
+}
+.carousel-indicators .active{
+	background-color:#444;
 }

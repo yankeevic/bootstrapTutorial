@@ -9,12 +9,13 @@
 	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> -->
     <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css"> <!--my own stylesheet with adjustments -->
+	<!-- Enable bootstrap 4 theme -->
+	<script>window.__theme = 'bs4';</script>
   </head>
   <body>
-  <!-- Added cards, added nav bar, -->
 	<div class="container-responsive">
 		<div class="card-group">
-			<div class="card card-info">
+			<div class="card card-info ">
 				<div class="card-block text-md-left"> 
 					<img class="img-rounded card-img-top img-fluid pull-md-left" src="http://lorempixel.com/400/50" />
 					<div class="card-text text-md-nowrap"> Some text nowrap</div>
@@ -27,9 +28,9 @@
 				</div>
 			</div>
 		</div>
-		<nav class="navbar navbar-fixed-top navbar-dark bg-primary">
+		<nav class="navbar navbar-dark bg-primary navbar-fixed-top">
 			<button class="navbar-toggler hidden-sm-up pull-xs-right" type="button"  data-toggle="collapse" data-target="#mainmenu">&#9776;</button>
-			<a href="#" class="navbar-brand">Discovery</a>
+			<a href="#" class="navbar-brand">NAVIGATION BAR</a>
 			<div class="collapse navbar-toggleable-xs" id="mainmenu" >
 				<ul class="nav navbar-nav pull-md-right">
 					<li class="nav-item"> <a ref="#" class="nav-link">Home</a> </li>
@@ -48,185 +49,209 @@
 				<li class="nav-item"> <a ref="#" class="nav-link active">Products</a> </li>		
 			</ul>
 		</nav>
-		<div class="col-md-3 jumbotron">
-			<legend>LEFT COLUMN</legend>
-			<div class="card-columns">
-				<div class="card card-warning"> 
-					<div class="card-header"> 
-						<p class="card-text">Card header</p>
-					</div>
-					<div class="card-block text-md-center"> 
-							<label class="card-title">Radios</label>							
-							<div class="radio">
-								<label> 
-									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked=""> option one is this 
-								</label>
-							</div>
-							<div class="radio">
-								<label> <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked=""> option two is this </label>
-							</div>			
+		
+		<div class="row">
+			<div class="jumbotron col-md-4">
+				<legend>LEFT COLUMN</legend>
+				<div class="card-columns">
+					<div class="card card-warning"> 
+						<div class="card-header"> 
+							<p class="card-text">Card header</p>
+						</div>
+						<div class="card-block text-md-center"> 
+								<label class="card-title">Radios</label>							
+								<div class="radio">
+									<label> 
+										<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked=""> option one is this 
+									</label>
+								</div>
+								<div class="radio">
+									<label> <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked=""> option two is this </label>
+								</div>			
+						</div>		
+						<div class="card-footer"> 
+							<p class="card-text">Card footer</p>
+						</div>					
+					</div>	
+					<div class="card card-info"> 
+						<div class="card-header"> 
+							<p class="card-text">Card header</p>
+						</div>
+						<div class="card-block text-md-center"> 
+								<label class="card-title">Radios</label>							
+								<div class="radio">
+									<label> 
+										<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked=""> option one is this 
+									</label>
+								</div>
+								<div class="radio">
+									<label> <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked=""> option two is this </label>
+								</div>			
+						</div>		
+						<div class="card-footer"> 
+							<p class="card-text">Card footer</p>
+						</div>					
+					</div>	
+					<div class="card "> 
+						<div class="card-block text-md-center"> 
+								<label class="card-title">Radios</label>									
+						</div>						
 					</div>		
-					<div class="card-footer"> 
-						<p class="card-text">Card footer</p>
-					</div>					
 				</div>	
-				<div class="card card-info"> 
-					<div class="card-header"> 
-						<p class="card-text">Card header</p>
-					</div>
-					<div class="card-block text-md-center"> 
-							<label class="card-title">Radios</label>							
-							<div class="radio">
-								<label> 
-									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked=""> option one is this 
-								</label>
-							</div>
-							<div class="radio">
-								<label> <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked=""> option two is this </label>
-							</div>			
-					</div>		
-					<div class="card-footer"> 
-						<p class="card-text">Card footer</p>
-					</div>					
-				</div>	
-				<div class="card "> 
-					<div class="card-block text-md-center"> 
-							<label class="card-title">Radios</label>									
-					</div>						
-				</div>	
-				<div class="card "> 
-					<div class="card-block text-md-center"> 
-							<label class="card-title">Radios</label>									
-					</div>						
-				</div>	
-				<div class="card "> 
-					<div class="card-block text-md-center"> 
-							<label class="card-title">Radios</label>									
-					</div>						
-				</div>	
-				<div class="card "> 
-					<div class="card-block text-md-center"> 
-							<label class="card-title">Radios</label>									
-					</div>						
-				</div>	
-			</div>	
-		</div>
-		<div class="col-md-6">
-			<div class="alert alert-success alert-dismissible" role="alert">
-				<button type="button" class="close" data-dismiss="alert">Close</button>
-				It Worked <a class="alert-link" href="#" >Click Here</a>
 			</div>
-			<form class="form-horizontal jumbotron"> <!-- form-inline -->
-				<fieldset>
-					<legend>Authentication</legend>
-					<p> 
-						<span class="label label-primary label-pill">Read this</span>
-					</p> 
-					<div class="form-group has-success">
-						<label for="inputEmail" class="form-control-label">Email</label>
-						<input type="text" class="form-control form-control-lg form-control-success" id="inputEmail" placeholder="Email">
-					</div>
-					<div class="form-group">
-						<label for="inputPassword" class="form-control-label">Password</label>
-						<input type="password" class="form-control" id="inputPassword" placeholder="Password">
-						<span id="helptext" class="text-muted"> this is a password </span>
-						<div class="checkbox">
-							<label> <input type="checkbox"> Checkbox </label>
+			<div class="col-md-8">
+				<ol class="breadcrumb">
+					<li> <a href="#" class="active" >Home</a> </li>
+					<li> <a href="#">Page2</a></li>
+				</ol>
+				<ul class="pagination">
+					<li class="page-item"><a href="#" class="page-link"><</a></li>
+					<li class="page-item"><a href="#" class="page-link">1</a></li>
+					<li class="page-item"><a href="#" class="page-link">2</a></li>
+					<li class="page-item"><a href="#" class="page-link">3</a></li>
+					<li class="page-item"><a href="#" class="page-link">4</a></li>
+					<li class="page-item"><a href="#" class="page-link">5</a></li>
+					<li class="page-item"><a href="#" class="page-link">></a></li>
+				</ul>
+					
+				 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active">
+							<img src="http://lorempixel.com/400/200/sports" class="img-fluid" />
+						</div>
+						<div class="carousel-item ">
+							<img src="http://lorempixel.com/400/200/cats" class="img-fluid" />
+						</div>
+						<div class="carousel-item ">
+							<img src="http://lorempixel.com/400/200/city" class="img-fluid" />
 						</div>
 					</div>
-					<div class="form-group">
-						<label for="textArea" class="form-control-label">TextArea</label>
-						<textarea class="form-control" rows="3" id="textArea"></textarea>
-						<span class="help-block">A longer block of help text that breaks onto a new line beyond xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</span>
-					</div>
-					</br>
-					<div class="form-group">
-						<div class="col-lg-10 col-lg-offset-1" > 
-							<button type="reset" class="btn btn-default btn-block"> Cancel </button> 
-							<button type="submit" class="btn btn-primary btn-block"> Submit </button>
+					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+						<span class="icon-prev"></span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+						<span class="icon-next"></span>
+					</a>
+				</div>
+								
+				
+				<div class="alert alert-success alert-dismissible" role="alert">
+					<button type="button" class="close" data-dismiss="alert">Close</button>
+					It Worked <a class="alert-link" href="#" >Click Here</a>
+				</div>
+				<form class="form-horizontal jumbotron"> <!-- form-inline -->
+					<fieldset>
+						<legend>Authentication</legend>
+						<p> 
+							<span class="label label-primary label-pill">Read this</span>
+						</p> 
+						<div class="form-group has-success">
+							<label for="inputEmail" class="form-control-label">Email</label>
+							<input type="text" class="form-control form-control-lg form-control-success" id="inputEmail" placeholder="Email">
 						</div>
-					</div>
-					<div class="btn-toolbar">
-						<div class="col-lg-10 col-lg-offset-3" > 
-							<div class="btn-group" role="group">
-									<button type="reset" class="btn btn-secondary"> Secondary </button> 
-									<button type="submit" class="btn btn-success"> Success </button>
+						<div class="form-group">
+							<label for="inputPassword" class="form-control-label">Password</label>
+							<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+							<span id="helptext" class="text-muted"> this is a password </span>
+							<div class="checkbox">
+								<label> <input type="checkbox"> Checkbox </label>
 							</div>
-							<div class="btn-group" role="group">
-									<button type="reset" class="btn btn-info">info</button>
-									<button type="submit" class="btn btn-warning"> warning </button>
-									<button type="submit" class="btn btn-danger"> danger </button>
-									<button type="submit" class="btn btn-link"> link </button>
+						</div>
+						<div class="form-group">
+							<label for="textArea" class="form-control-label">TextArea</label>
+							<textarea class="form-control" rows="3" id="textArea"></textarea>
+							<span class="help-block">A longer block of help text that breaks onto a new line beyond xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</span>
+						</div>
+						</br>
+						<div class="form-group">
+							<div class="col-lg-10" > 
+								<button type="reset" class="btn btn-default float-center "> Cancel </button> 
+								<button type="submit" class="btn btn-primary"> Submit </button>
+								<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#flipFlop"> Help </button>
 							</div>
 						</div>
-					</div>
-				</fieldset>
-			</form>
-			<div class="card-deck-wrapper">
-				<div class="card-deck">
-					<div class="card-group">
-						<div class="card card-inverse card-warning"> 
-							<div class="card-block text-md-center"> 
-									<label class="card-title">Radios</label>										
+						<div class="btn-toolbar">
+							<div class="col-lg-10 col-lg-offset-3" > 
+								<div class="btn-group" role="group">
+										<button type="reset" class="btn btn-secondary"> Secondary </button> 
+										<button type="submit" class="btn btn-success"> Success </button>
+								</div>
+								<div class="btn-group" role="group">
+										<button type="reset" class="btn btn-info">info</button>
+										<button type="submit" class="btn btn-warning"> warning </button>
+										<button type="submit" class="btn btn-danger"> danger </button>
+										<button type="submit" class="btn btn-link"> link </button>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+				</form>			
+			</div>
+			
+				<!--footer? -->
+				<div class="card-deck-wrapper">
+					<div class="card-deck">
+						<div class="card-group">
+							<div class="card card-inverse card-warning"> 
+								<div class="card-block text-md-center"> 
+										<label class="card-title">Radios</label>										
+								</div>							
+							</div>	
+							<div class="card"> 
+								<div class="card-header"> 
+									<p class="card-text">Card header</p>
+								</div>
+								<div class="card-block text-md-center"> 
+										<img class="img-rounded img-fluid" src="http://lorempixel.com/200/50" />
+										<label class="card-title">Radios</label>							
+										<div class="radio">
+											<label> 
+												<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked=""> option one is this 
+											</label>
+										</div>
+										<div class="radio">
+											<label> <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked=""> option two is this </label>
+										</div>			
+								</div>		
+								<div class="card-footer"> 
+									<p class="card-text">Card footer</p>
+								</div>								
+							</div>	
+							<div class="card"> 
+								<div class="card-block text-md-center"> 
+										<label class="card-title">Radios</label>	
+										<label class="card-text">textos</label>	
+								</div>					
+							</div>	
+							<div class="card"> 
+								<div class="card-block text-md-center"> 
+										<label class="card-title">Radios</label>	
+										<label class="card-text">textos</label>							
+								</div>					
 							</div>							
 						</div>	
-						<div class="card"> 
-							<div class="card-header"> 
-								<p class="card-text">Card header</p>
-							</div>
-							<div class="card-block text-md-center"> 
-									<img class="img-rounded img-fluid" src="http://lorempixel.com/200/50" />
-									<label class="card-title">Radios</label>							
-									<div class="radio">
-										<label> 
-											<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked=""> option one is this 
-										</label>
-									</div>
-									<div class="radio">
-										<label> <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked=""> option two is this </label>
-									</div>			
-							</div>		
-							<div class="card-footer"> 
-								<p class="card-text">Card footer</p>
-							</div>								
-						</div>	
-						<div class="card"> 
-							<div class="card-block text-md-center"> 
-									<label class="card-title">Radios</label>	
-									<label class="card-text">textos</label>	
-							</div>					
-						</div>	
-						<div class="card"> 
-							<div class="card-block text-md-center"> 
-									<label class="card-title">Radios</label>	
-									<label class="card-text">textos</label>							
-							</div>					
-						</div>							
 					</div>	
-				</div>	
-			</div>						
-		</div>
-		<div class="col-lg-3 jumbotron">
-			<label for="select" class="form-control-label">Selects</label>
-			<select class="form-control" id="select">
-				<option>1</option>
-				<option>2</option>
-				<option>3</option>
-				<option>4</option>
-				<option>5</option>
-			</select>
-			</br>
-			<select multiple="" class="form-control" >
-				<option>1</option>
-				<option>2</option>
-				<option>3</option>
-				<option>4</option>
-				<option>5</option>
-			</select>
-
+				</div>
+				
 		</div>
 	</div>
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<div id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> <button type="button" class="close" data-dismiss="modal" aria-label="Close"> </button> </div>
+				<div class="modal-body">help now call 1-900-878</div>
+				<div class="modal-footer"> <button type="button" class="btn btn-secondary" data-dismiss="modal" >Close </button>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- jQuery library -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
